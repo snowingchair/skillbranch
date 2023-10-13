@@ -59,7 +59,7 @@ class GameField
             let    row = this.F[rowI]
             for (let x = 0 ; x < row.length;x++)
             {
-                row[x].sprite=none
+                row[x].sprite=null
             }
     }
      ClearLines(lineDown)
